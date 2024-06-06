@@ -1,0 +1,24 @@
+    1  git config --global user.name "Nataliia"
+    2  git config --global user.email "nataliiaqa8@gmail.com"
+    3  git clone https://github.com/Nataliia-Hrytsyshyn/HW_10.git 
+    4  cd /d/githw/HW_10
+    5  touch text_ignore.txt
+    6  git status
+    7  git add .
+    8  git commit -m "add text ignore file"
+    9  touch main_test.txt
+   10  git add .
+   11  git commit -m "add main test file"
+   12  git checkout -b develop
+   13  git branch
+   14  touch develop_test.txt
+   15  git add .
+   16  git commit -m "add develop text file"
+   17  git status
+   18  git add .
+   19  git commit -m "add text in develop test file"
+   20  checkout main
+   21  git checkout main
+   22  git merge develop
+   23  git log
+   24  history > command_list.csv
